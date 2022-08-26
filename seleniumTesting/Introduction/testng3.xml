@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Regression">
+  <groups>
+  <run>
+  <include name="Smoke"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="Testng_Framework.Lexture1"/>
+     <class name="Testng_Framework.Lect3"/>
+      <class name="Testng_Framework.Lect1_part"/>
+       <class name="Testng_Framework.Lect4"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+
+</suite> <!-- Suite -->

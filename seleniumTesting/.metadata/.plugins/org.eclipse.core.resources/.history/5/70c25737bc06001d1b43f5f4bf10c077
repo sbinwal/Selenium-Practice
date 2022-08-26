@@ -1,0 +1,11 @@
+package Testng_Framework;
+
+import org.testng.annotations.Test;
+
+public class Lect1_part {
+
+	@Test
+	public void Loan() {
+		System.out.println("good");
+	}
+}

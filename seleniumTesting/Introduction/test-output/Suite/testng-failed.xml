@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="rahulshetty.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="URL" value="personalloan.com"/>
+    <classes>
+      <class name="Testng_Framework.Lect4">
+        <methods>
+          <include name="MobileloginHomeLoan"/>
+        </methods>
+      </class> <!-- Testng_Framework.Lect4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
